@@ -56,11 +56,11 @@ namespace BotApplication2.Dialogs
                     theme = entity.Entity;
                 }
             }
-            if (time2 == null)
+            if (time2 == null && time1 != null)
             {
                 time = time1.ToString().Substring(11, 5) + " ~";
             }
-            else
+            else if (time2 != null)
             {
                 if (time1 < time2)
                 {
