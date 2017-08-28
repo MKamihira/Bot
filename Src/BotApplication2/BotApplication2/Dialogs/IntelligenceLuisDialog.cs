@@ -86,7 +86,9 @@ namespace BotApplication2.Dialogs
                     app.CreateItem(outlook.OlItemType.olAppointmentItem)
                     as outlook.AppointmentItem;
                 appt.MeetingStatus = outlook.OlMeetingStatus.olMeeting;
+                if (time1 != null)
                 appt.Start = DateTime.Parse(time1.ToString());
+                if (time2 != null)
                 appt.End = DateTime.Parse(time2.ToString());
                 appt.Location = locate;
                 //appt.Body = body.Text;
