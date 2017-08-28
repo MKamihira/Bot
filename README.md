@@ -1,6 +1,6 @@
 # Bot
-BotApp/LUISおためし
-2ファイルしかいじってないよ
-BotApplication2 → Dialogs → IntelligenceLuisDialog.cs
-							  RootDialog.cs
+BotApp/LUISおためし  
+2ファイルしかいじってないよ  
+BotApplication2 → Dialogs → IntelligenceLuisDialog.cs　　
+							  RootDialog.cs　　
 
