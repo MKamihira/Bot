@@ -137,7 +137,7 @@ namespace BotApplication2.Dialogs
         [LuisIntent("None")]
         public async Task None(IDialogContext context, LuisResult result)
         {
-            string message = "ばかか？";
+            string message = "わかんないよ、悪いね";
 
             await context.PostAsync(message);
 
